@@ -56,7 +56,7 @@ body {
 .logo-header-color {
   color: #2e2f42;
 }
-.menu {
+.menu-list {
   display: flex;
 }
 .menu-link {
