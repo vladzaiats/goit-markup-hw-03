@@ -52,7 +52,9 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-
+.page-nav {
+  display: flex;
+}
 .logo-header-color {
   color: #2e2f42;
 }
@@ -205,11 +207,11 @@ body {
 }
 
 .page-footer {
-  display: inline-block;
   background: #2e2f42;
 }
 
 .page-footer-info {
+  display: inline-block;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
