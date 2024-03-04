@@ -54,8 +54,14 @@ body {
 }
 .page-nav {
   display: flex;
+  align-items: center;
 }
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .logo-header-color {
+  margin-right: 76px;
   color: #2e2f42;
 }
 .menu-list {
