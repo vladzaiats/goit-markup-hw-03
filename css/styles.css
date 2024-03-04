@@ -163,6 +163,14 @@ body {
   background: #f4f4fd;
 }
 
+.portfolio-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -171,6 +179,7 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  flex-wrap: wrap;
 }
 
 .team-list {
