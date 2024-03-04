@@ -70,8 +70,9 @@ body {
   gap: 40px;
   margin-right: 40px;
   margin-right: 0;
-  padding: 24px 0 24px;
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .menu-link {
   font-family: "Roboto", sans-serif;
