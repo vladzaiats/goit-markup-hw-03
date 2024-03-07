@@ -66,6 +66,7 @@ body {
   align-items: center;
   display: flex;
   padding: 24px 0 24px;
+  padding-right: 332px;
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -95,12 +96,13 @@ body {
 }
 .adr-list {
   gap: 40px;
-
   display: flex;
 }
 .address-info {
   justify-content: center;
   font-style: normal;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address-info-link {
@@ -108,9 +110,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .address-info-link:hover,
