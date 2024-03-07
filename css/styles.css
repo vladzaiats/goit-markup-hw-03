@@ -54,6 +54,14 @@ body {
   color: #4d5ae5;
   margin-right: 76px;
 }
+.container-menu {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
 .page-nav {
   align-items: center;
   display: flex;
@@ -71,8 +79,6 @@ body {
   margin-right: 40px;
   margin-right: 0;
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .menu-link {
   font-family: "Roboto", sans-serif;
@@ -93,6 +99,7 @@ body {
   display: flex;
 }
 .address-info {
+  justify-content: center;
   font-style: normal;
 }
 
@@ -101,6 +108,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address-info-link:hover,
