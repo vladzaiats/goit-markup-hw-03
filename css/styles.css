@@ -53,8 +53,6 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .page-nav {
@@ -75,6 +73,8 @@ body {
   margin-right: 40px;
   margin-right: 0;
   display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .menu-link {
   font-family: "Roboto", sans-serif;
