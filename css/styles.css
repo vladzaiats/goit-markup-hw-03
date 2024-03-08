@@ -24,7 +24,7 @@
   overflow: hidden;
 }
 /* =================/global style ==============*/
-/* =================tag style================== */
+/* ================= tag style================== */
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -84,7 +84,25 @@ ol {
 }
 img {
   display: block;
-} /* =================/tag style================== */
+}
+/* =============/tag style================== */
+/* =================event===================*/
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+.address-info-link:hover,
+.address-info-link:focus {
+  color: #404bbf;
+}
+.title-btn:hover,
+.title-btn:focus {
+  background-color: #404bbf;
+}
+
+/* ============= header================== */
 .logo-header {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -99,12 +117,14 @@ img {
 .page-nav {
   align-items: center;
   display: flex;
-  padding-right: 332px;
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
-
+.page-header .container {
+  justify-content: space-between;
+}
 .logo-header-color {
   color: #2e2f42;
 }
@@ -125,10 +145,6 @@ img {
   padding-bottom: 24px;
 }
 
-.menu-link:hover,
-.menu-link:focus {
-  color: #404bbf;
-}
 .adr-list {
   gap: 40px;
   display: flex;
@@ -147,11 +163,8 @@ img {
   color: #434455;
 }
 
-.address-info-link:hover,
-.address-info-link:focus {
-  color: #404bbf;
-}
-
+/* =============/header================== */
+/* ============= first-section================ */
 .first-section {
   background: #2e2f42;
   align-items: center;
@@ -186,15 +199,11 @@ img {
   background-color: #4d5ae5;
 }
 
-.title-btn:hover,
-.title-btn:focus {
-  background-color: #404bbf;
-}
-
 .btn-text {
   color: #ffffff;
 }
-/* Scnd section */
+/* =============/first-section================ */
+/* ============= bnf-section================  */
 .bnf-sec {
 }
 .benefits-title {
@@ -215,8 +224,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
+} /* =============/bnf-section================  */
+/* ============= team-section================  */
 .team-section {
   background: #f4f4fd;
 }
@@ -260,7 +269,9 @@ img {
   text-align: center;
   color: #434455;
 }
+/* =============/team-section================  */
 
+/* ============= portfolio-section================  */
 .portfolio-titles {
   font-weight: 500;
   font-size: 20px;
@@ -275,7 +286,8 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+/* =============/portfolio-section================  */
+/* ================ footer==================== */
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -304,3 +316,4 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+/* ================/footer==================== */
