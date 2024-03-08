@@ -114,9 +114,18 @@ body {
 
 .first-section {
   background: #2e2f42;
+  max-width: 1440px;
+  align-items: center;
+  display: flex;
+  margin: auto;
+  padding: 188px 0;
 }
 
 .main-title {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 496px;
+  margin-bottom: 48px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -126,6 +135,10 @@ body {
 }
 
 .title-btn {
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -232,6 +245,7 @@ body {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .logo-footer-color {
