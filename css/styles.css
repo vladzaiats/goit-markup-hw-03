@@ -225,46 +225,31 @@ img {
 }
 /* =============/bnf-section================  */
 /* ============= team-section================  */
-.team-section {
-  background: #f4f4fd;
+.team {
+  background-color: #f4f4fd;
+  padding: 120px 0;
 }
-
-.portfolio-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: stretch;
-  flex-wrap: wrap;
-}
-
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
+.team .title {
   text-align: center;
-  color: #2e2f42;
-  flex-wrap: wrap;
-}
-
-.team-list {
-  background: #fff;
-}
-
-.team-name-list {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 72px;
+}
+.team .list {
+  background-color: #ffffff;
+  gap: 24px;
+}
+.team .item {
+  flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.team .description {
+  padding: 32px 0;
+}
+.team .list .title {
   text-align: center;
-  color: #2e2f42;
+  margin-bottom: 8px;
 }
-
-.team-person-job {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.team .text {
   text-align: center;
   color: #434455;
 }
