@@ -1,49 +1,90 @@
-ul,
-ol {
-  list-style-type: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
+/* =================global style ==============*/
+* {
+  margin: 0;
+  padding: 0;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-img {
-  display: block;
-}
-
-.container {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+.flex {
   display: flex;
 }
-
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* =================/global style ==============*/
+/* =================tag style================== */
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
-  background-color: #fff;
+  background: #fff;
 }
-
+button {
+  cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #fff;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  display: inline-block;
+}
+ul,
+li,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+} /* =================/tag style================== */
 .logo-header {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -119,6 +160,7 @@ body {
   display: flex;
   margin: auto;
   padding: 188px 0;
+  flex-direction: column;
 }
 
 .main-title {
@@ -155,7 +197,9 @@ body {
 .btn-text {
   color: #ffffff;
 }
-
+/* Scnd section */
+.bnf-sec {
+}
 .benefits-title {
   line-height: 1.2;
   color: #2e2f42;
@@ -258,7 +302,6 @@ body {
 }
 
 .page-footer-info {
-  display: inline-block;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
